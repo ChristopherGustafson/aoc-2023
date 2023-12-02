@@ -36,7 +36,7 @@ fun replaceSpelledNumber(line: String, find: CharSequence.(Collection<String>) -
 val exampleInput = "1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet"
 println("Example part 1: " + part1(exampleInput))
 
-val realInput = File("day1/day1_input.txtt.txt").readText()
+val realInput = File("day1_input.txt").readText()
 println("Real input part 1: " + part1(realInput))
 
 val exampleInput2 = "two1nine\neightwothree\nabcone2threexyz\nxtwone3four\n4nineeightseven2\nzoneight234\n7pqrstsixteen"
