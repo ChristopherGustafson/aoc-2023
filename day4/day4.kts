@@ -33,7 +33,6 @@ fun part2(input: String): Int {
         totalCopies += copies[index]!!
         for (i in index + 1..index + matching) { copies[i]?.let { copies[i] = it + copies[index]!! } }
     }
-    println(copies)
     return totalCopies
 }
 
