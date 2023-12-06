@@ -13,12 +13,12 @@ import kotlin.math.sqrt
  * d < (w * a) * (t - w)
  * w^2 - tw + d / a < 0
  * Using the quadratic equation:
- * w < -(-tw/2) +- sqrt((tw/2)^2 - d/a)
- * x = -(-tw/2)
- * y = sqrt((tw/2)^2 - d/a)
- * x - y < w < x + y
+ * w < -(-t/2) +- sqrt((t/2)^2 - d/a)
+ * x = -(-t/2)
+ * y = sqrt((t/2)^2 - d/a)
+ *
+ *  => x - y < w < x + y
  */
-
 
 val acceleration = 1.0
 
